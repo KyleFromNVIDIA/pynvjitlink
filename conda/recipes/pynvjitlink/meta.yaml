@@ -42,7 +42,7 @@ requirements:
     - scikit-build-core
   run:
     - python
-    - numba >=0.57
+    - numba >=0.58
     - {{ pin_compatible('cuda-version', min_pin='x', upper_bound=(cuda_major ~ "." ~ (cuda_minor + 1))) }}
 
 about:
