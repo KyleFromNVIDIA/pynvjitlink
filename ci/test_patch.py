@@ -2,9 +2,10 @@
 # Copyright (c) 2024, NVIDIA CORPORATION
 
 from pynvjitlink import patch
+
 patch.patch_numba_linker()
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     from numba.testing._runtests import _main
     import sys
 
